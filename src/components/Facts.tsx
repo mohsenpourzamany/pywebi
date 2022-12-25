@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Facts = () => {
   return (
     <div className="container-fluid facts py-5 pt-lg-0">
@@ -35,6 +36,7 @@ const Facts = () => {
                         <div className="ps-4">
                             <h5 className="text-white mb-0">Win Awards</h5>
                             <h1 className="text-white mb-0" data-toggle="counter-up">12345</h1>
+                            
                         </div>
                     </div>
                 </div>
@@ -44,4 +46,5 @@ const Facts = () => {
   )
 }
 
-export default Facts
+export default Facts;
+

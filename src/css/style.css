@@ -21,7 +21,12 @@
     line-height: 45px;
   }
   
-
+.imgpage {
+    height: 500px;
+}
+.fontcarousel{
+    font-size: 3rem;
+}
 @-webkit-keyframes sk-rotateplane {
     0% {
         -webkit-transform: perspective(120px)
@@ -493,7 +498,6 @@ h6,
 @media (min-width: 767.98px) {
     .footer-about {
         margin-bottom: -75px;
-        
     }
 }
 .soket {

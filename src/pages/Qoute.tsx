@@ -112,7 +112,7 @@ const Qoute = () => {
                   <div className="col-12">
                     <select
                       className="form-select bg-light border-0"
-                      value={1}
+                      // value={1}
                       style={{ height: "55px" }}
                     >
                       <option>Select A Service</option>
@@ -134,6 +134,7 @@ const Qoute = () => {
                       className="btn btn-dark w-100 py-3"
                       onClick={textClick}
                       type="submit"
+                       
                     >
                       Request A Quote
                     </button>

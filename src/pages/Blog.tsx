@@ -1,7 +1,9 @@
 import React from 'react'
 import { DataPostBlog } from '../data/DataPostBlog'
 import { Link } from 'react-router-dom' 
+
 const Blog = () => {
+
   return (
     <div className="container-fluid pb-5 wow fadeInUp" data-wow-delay="0.1s">
     <div className="container py-5">

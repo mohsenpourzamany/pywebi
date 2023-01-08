@@ -19,9 +19,12 @@ const PostBlogSlice = createSlice({
     reducers : {
         GetPost (state) {
              state.items ;
+        },
+        AddingPost (state , action : PayloadAction){
+             state.items.concat ; action.payload;   
         }
     }
 });
 
-export const { GetPost } = PostBlogSlice.actions;
+export const { GetPost , AddingPost } = PostBlogSlice.actions;
 export default PostBlogSlice.reducer;

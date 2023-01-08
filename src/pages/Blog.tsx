@@ -1,5 +1,5 @@
 import React from 'react'
-import { DataPostBlog } from '../data/DataPostBlog'
+import { AddDataPostBlog } from '../data/DataPostBlog'
 import { Link } from 'react-router-dom' 
 
 const Blog = () => {
@@ -12,9 +12,9 @@ const Blog = () => {
             <h1 className="mb-0">Read The Latest Articles from Our Blog Post</h1>
         </div>
         <div className="row g-5">
-            {  DataPostBlog &&
-           DataPostBlog.length !== 0 &&
-           DataPostBlog.map((postData) => {
+            {  AddDataPostBlog &&
+           AddDataPostBlog.length !== 0 &&
+           AddDataPostBlog.map((postData) => {
             return (
                 
             <div key={postData.id} className="col-lg-4 col-md-6 wow slideInUp" data-wow-delay="0.3s">
@@ -26,7 +26,7 @@ const Blog = () => {
                     <div className="p-4">
                         <div className="d-flex mb-3">
                             <small className="me-3"><i className="far fa-user text-primary me-2"></i>{postData.author}</small>
-                            <small><i className="far fa-calendar-alt text-primary me-2"></i>{postData.date}</small>
+                            <small><i className="far fa-calendar-alt text-primary me-2"></i>{postData.postDate}</small>
                         </div>
                         <h4 className="mb-3">{postData.title2}</h4>
                         <p>{postData.describ}</p>

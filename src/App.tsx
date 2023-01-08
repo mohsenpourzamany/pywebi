@@ -17,6 +17,7 @@ import TeamPage from './mainPage/TeamPage'
 import TestmonialPage from './mainPage/TestmonialPage'
 import QoutePage from './mainPage/QoutePage'
 import ContactPage from './mainPage/ContactPage'
+import Profile from './mainPage/Profile'
 
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
           <Route path='/testmonial'  element={<TestmonialPage/>} />
           <Route path='/qoute'  element={<QoutePage/>} />
           <Route path='/contact'  element={<ContactPage/>} />
+          <Route path='/profile'  element={<Profile/>} />
         </Routes>
         <Footer />
       </BrowserRouter>

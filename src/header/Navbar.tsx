@@ -31,6 +31,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <Link to="contact" className="nav-item nav-link">Contact</Link>
+                    <Link to="profile" className="nav-item nav-link">Profile</Link>
                 </div>
                 <button type="button" className="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i className="fa fa-search"></i></button>
                 <Link to="https://htmlcodex.com/startup-company-website-template" className="btn btn-primary py-2 px-4 ms-3">Sign up</Link>

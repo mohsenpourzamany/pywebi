@@ -27,6 +27,18 @@
 .fontcarousel{
     font-size: 3rem;
 }
+.addpost{
+    padding: 30px 50px;
+    margin: 10px 100px 0 100px !important;
+    box-shadow: 10px 10px 10px 10px #a9a9a9;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 50px !important;
+    
+  }
+  .valid-feedback ,h1{
+    color: var(--primary);
+  }
 @-webkit-keyframes sk-rotateplane {
     0% {
         -webkit-transform: perspective(120px)

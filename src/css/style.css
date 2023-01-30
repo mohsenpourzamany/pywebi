@@ -243,7 +243,7 @@ h6,
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(9, 30, 62, .7);
+    background: rgba(53, 60, 67, 0.7);
     z-index: 1;
 }
 
@@ -521,4 +521,11 @@ h6,
     background-color: #06A3DA !important;
     width: 45px !important;
     height: 45px !important;
+}
+.form-check-label{
+    float:left !important;
+}
+.submit-post{
+    height: 50px;
+    width: 160px;
 }

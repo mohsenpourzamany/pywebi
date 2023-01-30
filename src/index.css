@@ -1,0 +1,117 @@
+
+.container-tab-l{
+    background-color: rgba(94, 94, 94, 0.89);
+    margin: 30px 10px;
+    padding: 25px 15px 40px 15px !important;
+    width: 250px;
+    height: auto;
+}
+.avatar{
+    width: 200px !important;
+    text-align: center;
+    margin-bottom: 40px;
+    color: whitesmoke;
+   
+}
+.card{
+    background-color: rgb(136, 136, 136) !important;
+}
+.avatar .img{
+    margin: 35px auto;
+}
+.tab-item {
+    margin-bottom: 12px !important;
+    
+    
+}  
+.tab-item a {
+    color: whitesmoke !important;
+    border: 1px solid rgba(245, 245, 245, 0.412) !important;
+    height: 55px !important;
+    width: 200px !important; 
+   
+    line-height: 35px !important;
+}
+.tab-item a.active{
+    background-color: #06A3DA !important;
+}
+.tab-item a:hover{
+    background-color: #06A3DA !important;
+}
+.container-profile{
+    border: 2px solid rgba(245, 245, 245, 0.412) ;
+    box-shadow: 10px 10px 10px 10px rgba(165, 165, 165, 0.412);
+    margin: 35px 50px;
+    padding: 65px 7px 35px 5px;
+    
+}
+/* .container-profile.section-title{
+   left: 500px !important;
+} */
+.container-profile p{
+    font-size: small;
+    margin-top: 10px;
+}
+.btn-profile{
+    height: 95px !important;
+    width: 250px !important;
+    background-color: #06A3DA;
+    font-size: 20px !important;
+    margin-left: 18px;
+    align-items: center;
+}
+
+.btn-profile .badge{
+    font-size: 17px !important;
+    border-radius: 50px !important;
+    padding: 10px;
+    width: 35px !important;
+    height: 35px !important;
+    margin-left: 15px;
+    float:right;
+}
+.icon-profile{
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+
+}
+.border-profil{
+    box-shadow: 10px 10px 10px 10px rgba(165, 165, 165, 0.412);
+    margin: 30px;
+}
+.border-profil1{
+    margin: 30px;
+}
+
+.btn-profile-not{
+    height: 110px !important;
+    width: 90% !important;
+    background-color: #06A3DA;
+    font-size: 24px !important;
+    display: block;
+    margin: 80px auto;
+}
+.btn-profile-not .badge{
+    font-size: 17px !important;
+    border-radius: 50px !important;
+    padding: 10px;
+    width: 35px !important;
+    height: 35px !important;
+    float: right;
+}
+.container-list-post{
+    border: 2px solid rgba(245, 245, 245, 0.412) ;
+    box-shadow: 10px 10px 10px 10px rgba(165, 165, 165, 0.412);
+    margin: 35px 70px;
+    padding: 65px 7px 35px 5px;
+}
+.container-list-post h2{
+    color:#06A3DA;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 400;
+}
+.dropdown-post{
+    width: 425px !important;
+}

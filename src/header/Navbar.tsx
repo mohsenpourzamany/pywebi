@@ -11,12 +11,29 @@ const Navbar = () => {
               <Link to="/" className="nav-item nav-link active">
                 Home
               </Link>
-              <Link to="about" className="nav-item nav-link">
-                About
+              <Link to="courses" className="nav-item nav-link disabled">
+                Courses
               </Link>
-              <Link to="services" className="nav-item nav-link">
-                Services
+              <Link to="projects" className="nav-item nav-link disabled">
+                Our Projects
               </Link>
+              <div className="nav-item dropdown">
+                <Link
+                  to="#"
+                  className="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                >
+                  Services
+                </Link>
+                <div className="dropdown-menu m-0">
+                  <Link to="services" className="dropdown-item">
+                    Services
+                  </Link>
+                  <Link to="pricing plan" className="dropdown-item  disabled">
+                    Pricing Plan
+                  </Link>
+                </div>
+              </div>
               <div className="nav-item dropdown">
                 <Link
                   to="#"
@@ -40,11 +57,14 @@ const Navbar = () => {
                   className="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
                 >
-                  Pages
+                  PyWebino
                 </Link>
                 <div className="dropdown-menu m-0">
-                  <Link to="priceplan" className="dropdown-item">
-                    Pricing Plan
+                  <Link to="about" className="dropdown-item">
+                    About
+                  </Link>
+                  <Link to="contact" className="dropdown-item">
+                    Contact
                   </Link>
                   <Link to="features" className="dropdown-item">
                     Our features
@@ -52,17 +72,9 @@ const Navbar = () => {
                   <Link to="team" className="dropdown-item">
                     Team Members
                   </Link>
-                  <Link to="testmonial" className="dropdown-item">
-                    Testimonial
-                  </Link>
-                  <Link to="qoute" className="dropdown-item">
-                    Free Quote
-                  </Link>
                 </div>
               </div>
-              <Link to="contact" className="nav-item nav-link">
-                Contact
-              </Link>
+
               <Link to="profile" className="nav-item nav-link">
                 Profile
               </Link>
@@ -76,11 +88,11 @@ const Navbar = () => {
               <i className="fa fa-search" style={{ color: "#06A3DA" }}></i>
             </button>
             <Link
-              to="https://htmlcodex.com/startup-company-website-template"
+              to="signpage"
               className="btn btn-primary py-2 px-4 ms-3"
               style={{ backgroundColor: "#06A3DA" }}
             >
-              Sign up
+              Sign up / in
             </Link>
           </div>
           <Link to="index.html" className="navbar-brand p-0">

@@ -9,6 +9,8 @@ import Tab from "react-bootstrap/Tab";
 import Card from "react-bootstrap/Card";
 import { Avatar } from "@mui/material";
 import Barad from "../assets/img/team-1.jpg";
+import Contact from "../pages/Contact";
+
 const Profile = () => {
   return (
     <>
@@ -39,10 +41,14 @@ const Profile = () => {
                 <Nav.Link eventKey="2">Your Post</Nav.Link>
               </Nav.Item>
               <Nav.Item className="tab-item">
-                <Nav.Link eventKey="3">Your Course</Nav.Link>
+                <Nav.Link eventKey="3" disabled>
+                  Your Course
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item className="tab-item">
-                <Nav.Link eventKey="4">Your projects</Nav.Link>
+                <Nav.Link eventKey="4" disabled>
+                  Your projects
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item className="tab-item">
                 <Nav.Link eventKey="5">Wallet</Nav.Link>
@@ -51,7 +57,7 @@ const Profile = () => {
                 <Nav.Link eventKey="6">Account</Nav.Link>
               </Nav.Item>
               <Nav.Item className="tab-item">
-                <Nav.Link eventKey="7">Suppurt</Nav.Link>
+                <Nav.Link eventKey="7">Contact & Suppurt</Nav.Link>
               </Nav.Item>
               <Nav.Item className="tab-item">
                 <Nav.Link eventKey="8">Exit</Nav.Link>
@@ -66,6 +72,8 @@ const Profile = () => {
               <Tab.Pane eventKey="4">{/* <Sonnet /> */}</Tab.Pane>
               <Tab.Pane eventKey="5">{/* <Sonnet /> */}</Tab.Pane>
               <Tab.Pane eventKey="6">{/* <Sonnet /> */}</Tab.Pane>
+              <Tab.Pane eventKey="7">{<Contact />}</Tab.Pane>
+              <Tab.Pane eventKey="8">{/* <Sonnet /> */}</Tab.Pane>
             </Tab.Content>
           </Col>
         </Row>

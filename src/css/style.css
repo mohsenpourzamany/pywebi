@@ -529,3 +529,14 @@ h6,
     height: 50px;
     width: 160px;
 }
+.dropdown-item{
+    height: 40px !important;
+    line-height: 30px !important;
+}
+.dropdown-item:hover{
+    background-color: #06A3DA !important;
+    color: whitesmoke;
+}
+.owl-carousel{
+    display: inline-flex !important;
+}

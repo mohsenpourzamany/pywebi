@@ -115,3 +115,9 @@
 .dropdown-post{
     width: 425px !important;
 }
+.container-sign{
+    border: 2px solid rgba(245, 245, 245, 0.412) ;
+    box-shadow: 10px 10px 10px 10px rgba(165, 165, 165, 0.412);
+    margin: 35px 70px;
+    padding: 65px 7px 35px 5px;
+}

@@ -134,6 +134,14 @@ export default function SignUp() {
         >
           Sign Up With GitHub
         </Button>
+        <Button
+          type="submit"
+          fullWidth
+          variant="contained"
+          sx={{ backgroundColor: "orange", mb: 2 }}
+        >
+          Sign Up With stackoverflow
+        </Button>
       </Container>
     </ThemeProvider>
   );

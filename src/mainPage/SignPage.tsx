@@ -7,7 +7,7 @@ const SignPage = () => {
   return (
     <>
       <CarouselPage />
-      <div className="row">
+      <div className="row container-sign">
         <SignIn />
         <SignUp />
       </div>

@@ -111,6 +111,14 @@ export default function SignIn() {
         >
           Sign In With GitHub
         </Button>
+        <Button
+          type="submit"
+          fullWidth
+          variant="contained"
+          sx={{ backgroundColor: "orange", mb: 2 }}
+        >
+          Sign In With stackoverflow
+        </Button>
       </Container>
     </ThemeProvider>
   );

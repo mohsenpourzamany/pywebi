@@ -540,3 +540,20 @@ h6,
 .owl-carousel{
     display: inline-flex !important;
 }
+.owl-prev{
+    position: absolute !important;
+    left: 0 !important;
+    border: none !important;
+    margin-top: 140px !important;
+}
+.owl-next{
+    position: absolute !important;
+    border: none !important;
+    margin-top: 140px !important;
+    
+}
+.owl-dots{
+    position: absolute !important;
+    left: 650px !important;
+    top: 290px !important;
+}

@@ -1,5 +1,5 @@
 {
-  "name": "pywebino",
+  "name": "pywebi",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -18,7 +18,9 @@
     "jquery": "^3.6.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
+    "react-countup": "^6.4.1",
     "react-dom": "^18.2.0",
+    "react-owl-carousel": "^2.3.3",
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.5.0",
     "react-scroll-to-top": "^3.0.0"
